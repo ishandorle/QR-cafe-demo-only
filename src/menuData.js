@@ -1,4 +1,5 @@
-// Velvet Brew Premium Menu Data - 77 items across 14 categories
+// Velvet Brew Premium Menu Data - 42 highly curated items (exactly 3 per category)
+// Every item is mapped to a unique, exact, high-resolution Unsplash photo ID.
 
 export const menuCategories = [
   "Coffee",
@@ -18,125 +19,48 @@ export const menuCategories = [
 ];
 
 export const menuItems = [
-  // --- COFFEE (10 items) ---
+  // --- COFFEE ---
   {
     id: "c1",
     name: "Espresso",
     category: "Coffee",
     price: "$3.75",
-    description: "Double shot of our house signature single-origin espresso. Rich crema with notes of dark chocolate and orange peel.",
+    description: "Double shot of our signature single-origin espresso. Rich crema with notes of dark cocoa and citrus.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-151097252790b-a63880a22ab7?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
     id: "c2",
-    name: "Americano",
-    category: "Coffee",
-    price: "$4.25",
-    description: "Double shot of signature espresso diluted with hot water. Bold, clean, and highly sophisticated flavor profile.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1551046713-2415b6c30293?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "c3",
     name: "Cappuccino",
     category: "Coffee",
     price: "$4.95",
-    description: "Equal parts espresso, steamed milk, and dense micro-foam. Dusted with premium organic cocoa powder.",
+    description: "Equal parts espresso, steamed milk, and dense micro-foam, finished with an elegant cacao dusting.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
     image: "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "c4",
-    name: "Latte",
-    category: "Coffee",
-    price: "$5.25",
-    description: "Double shot espresso with silky steamed milk and a delicate layer of micro-foam on top. Velvety smooth texture.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "c5",
-    name: "Flat White",
-    category: "Coffee",
-    price: "$5.00",
-    description: "Ristretto double shot blended with steamed whole milk. A strong coffee flavor with a velvety micro-foam texture.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "c6",
-    name: "Mocha",
-    category: "Coffee",
-    price: "$5.75",
-    description: "Espresso combined with premium dark Belgian chocolate syrup and steamed milk, finished with whipped cream.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "c7",
+    id: "c3",
     name: "Caramel Macchiato",
     category: "Coffee",
     price: "$5.95",
-    description: "Freshly steamed milk with vanilla-flavored syrup, marked with espresso and drizzled with buttery caramel sauce.",
+    description: "Steamed milk marked with espresso, sweetened with vanilla, and finished with a buttery caramel drizzle.",
     isVeg: true,
-    isPopular: true,
+    isPopular: false,
     isChefRecommended: false,
     image: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=400&h=400&q=80"
   },
-  {
-    id: "c8",
-    name: "Hazelnut Latte",
-    category: "Coffee",
-    price: "$5.75",
-    description: "Classic latte infused with organic roasted hazelnut syrup, delivering a sweet, nutty, and comforting finish.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "c9",
-    name: "Vanilla Latte",
-    category: "Coffee",
-    price: "$5.75",
-    description: "Rich espresso and steamed milk flavored with premium Madagascar Bourbon vanilla syrup.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "c10",
-    name: "Irish Coffee",
-    category: "Coffee",
-    price: "$7.50",
-    description: "Espresso and hot water infused with non-alcoholic Irish whiskey flavor, brown sugar, and topped with dense cold cream.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=400&h=400&q=80"
-  },
 
-  // --- SIGNATURE COFFEE (5 items) ---
+  // --- SIGNATURE COFFEE ---
   {
     id: "sc1",
     name: "Velvet Brew Reserve",
     category: "Signature Coffee",
     price: "$8.50",
-    description: "Our signature micro-lot Geisha espresso, pulled over a chilled gold-plated steel sphere to preserve delicate aromatics.",
+    description: "Our prized micro-lot pour-over, slow-dripped to highlight complex floral and bergamot notes.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: true,
@@ -144,146 +68,69 @@ export const menuItems = [
   },
   {
     id: "sc2",
-    name: "House Blend Gold",
-    category: "Signature Coffee",
-    price: "$6.95",
-    description: "A flawless espresso blend of Ethiopian Sidamo and Colombian Supremo, topped with edible 24K gold flakes.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "sc3",
     name: "Cinnamon Honey Latte",
     category: "Signature Coffee",
     price: "$6.50",
-    description: "Steamed oat milk, double espresso, raw organic wildflower honey, and freshly grated Ceylon cinnamon.",
+    description: "Silky steamed oat milk combined with raw honey, espresso, and topped with freshly grated Ceylon cinnamon.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1570968915860-54d5c301fc9f?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "sc4",
-    name: "Roastery Special",
-    category: "Signature Coffee",
-    price: "$7.25",
-    description: "Slow-dripped pour-over featuring our seasonal single-origin beans, hand-selected by our master roaster.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "sc5",
+    id: "sc3",
     name: "Nitro Cold Brew",
     category: "Signature Coffee",
     price: "$6.25",
-    description: "24-hour slow steeped cold brew infused with nitrogen. Pours a beautiful cascade with a velvety head.",
+    description: "Slow-steeped cold brew charged with nitrogen for an ultra-creamy head and natural cascading sweetness.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
     image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- COLD BEVERAGES (8 items) ---
+  // --- COLD BEVERAGES ---
   {
     id: "cb1",
-    name: "Cold Coffee",
-    category: "Cold Beverages",
-    price: "$5.50",
-    description: "Classic blended cold coffee made with rich espresso, creamy milk, and vanilla ice cream. Pure comfort.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "cb2",
-    name: "Iced Latte",
-    category: "Cold Beverages",
-    price: "$5.25",
-    description: "Double shot espresso chilled over ice, combined with fresh cold milk for a refreshing kick.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "cb3",
-    name: "Iced Americano",
-    category: "Cold Beverages",
-    price: "$4.50",
-    description: "Signature double espresso poured over premium hand-cut ice, topped up with chilled water.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "cb4",
     name: "Chocolate Shake",
     category: "Cold Beverages",
     price: "$6.50",
-    description: "Thick milk shake blended with premium dark Belgian chocolate and artisan cocoa ice cream, topped with flakes.",
+    description: "Creamy milkshake blended with artisan dark cocoa and whole milk, finished with whipped cream.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
     image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "cb5",
-    name: "Oreo Shake",
-    category: "Cold Beverages",
-    price: "$6.75",
-    description: "Indulgent milkshake blended with milk, vanilla ice cream, and crunchy Oreo cookies, topped with whipped cream.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "cb6",
-    name: "Caramel Frappe",
-    category: "Cold Beverages",
-    price: "$6.95",
-    description: "Espresso blended with sweet caramel sauce, milk, and ice, topped with whipped cream and caramel drizzle.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "cb7",
-    name: "Vanilla Frappe",
-    category: "Cold Beverages",
-    price: "$6.95",
-    description: "A rich ice-blended beverage infused with premium vanilla bean extract, milk, espresso, and topped with cream.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "cb8",
+    id: "cb2",
     name: "Mango Smoothie",
     category: "Cold Beverages",
     price: "$6.50",
-    description: "Pure Alphonso mango pulp blended with rich Greek yogurt and organic honey. Refreshingly sweet.",
+    description: "Vibrant yellow mango puree blended with Greek yogurt and honey, garnished with fresh mint.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: true,
     image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=400&h=400&q=80"
   },
+  {
+    id: "cb3",
+    name: "Caramel Frappe",
+    category: "Cold Beverages",
+    price: "$6.95",
+    description: "Blended ice espresso, milk, and caramel syrup, topped with thick cream and gold-colored caramel flakes.",
+    isVeg: true,
+    isPopular: true,
+    isChefRecommended: false,
+    image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=400&h=400&q=80"
+  },
 
-  // --- TEA (5 items) ---
+  // --- TEA ---
   {
     id: "t1",
     name: "Masala Chai",
     category: "Tea",
     price: "$4.00",
-    description: "Brewed black tea infused with fresh ginger, cardamom, cinnamon, and cloves, boiled with whole milk.",
+    description: "Robust black tea boiled with fresh ginger, crushed cardamom, cloves, and rich whole milk.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
@@ -294,7 +141,7 @@ export const menuItems = [
     name: "Green Tea",
     category: "Tea",
     price: "$4.25",
-    description: "Steeped premium organic Sencha green tea leaves. Clean, earthy notes and rich in antioxidants.",
+    description: "Premium whole Sencha green tea leaves steeped to release sweet, clean, and grassy notes.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
@@ -302,45 +149,23 @@ export const menuItems = [
   },
   {
     id: "t3",
-    name: "Lemon Tea",
-    category: "Tea",
-    price: "$3.95",
-    description: "Light black tea infused with fresh lemon juice and sweetened with a touch of organic honey.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "t4",
     name: "Earl Grey",
     category: "Tea",
     price: "$4.50",
-    description: "Premium black tea scented with oil of Bergamot rind. Served with lemon or a splash of milk.",
+    description: "Steaming organic black tea leaves scented with oil of Bergamot, served with a fresh slice of lemon.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: true,
     image: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&w=400&h=400&q=80"
   },
-  {
-    id: "t5",
-    name: "Jasmine Tea",
-    category: "Tea",
-    price: "$4.75",
-    description: "Fragrant green tea leaves naturally scented with delicate jasmine blossoms for a soothing floral aroma.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&w=400&h=400&q=80"
-  },
 
-  // --- MOCKTAILS (5 items) ---
+  // --- MOCKTAILS ---
   {
     id: "m1",
     name: "Virgin Mojito",
     category: "Mocktails",
     price: "$6.50",
-    description: "Crushed fresh mint leaves and lime wedges muddled with sugar syrup, topped with sparkling club soda.",
+    description: "Muddled lime wedges and garden-fresh mint, shaken with cane syrup and topped with sparkling soda.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
@@ -351,7 +176,7 @@ export const menuItems = [
     name: "Blue Lagoon",
     category: "Mocktails",
     price: "$6.95",
-    description: "A vibrant blend of blue Curaçao syrup, fresh lime juice, and sweet lemonade, garnished with a slice of orange.",
+    description: "A cool, electric blue beverage made with orange peel syrup, lemon tonic, and a twist of citrus rind.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
@@ -362,42 +187,20 @@ export const menuItems = [
     name: "Watermelon Cooler",
     category: "Mocktails",
     price: "$7.25",
-    description: "Freshly pressed watermelon juice, fresh mint, and lime juice shaken with ice and topped with ginger ale.",
+    description: "Pressed watermelon nectar, lime juice, and cucumber slices topped with ginger carbonation.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1508253730741-0391d171d185?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "m4",
-    name: "Passion Fruit Fizz",
-    category: "Mocktails",
-    price: "$7.50",
-    description: "Exotic passion fruit pulp blended with lime and carbonated water, topped with a rosemary sprig.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "m5",
-    name: "Mint Sparkler",
-    category: "Mocktails",
-    price: "$6.75",
-    description: "Crisp ginger beer, lime juice, cucumber slices, and muddled mint leaves for an ultra-refreshing finish.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- BREAKFAST (5 items) ---
+  // --- BREAKFAST ---
   {
     id: "b1",
     name: "Avocado Toast",
     category: "Breakfast",
     price: "$11.50",
-    description: "Creamy mashed Haas avocados, organic cherry tomatoes, micro-greens, and feta cheese on toasted artisanal sourdough bread.",
+    description: "Crushed Haas avocados, red pepper flakes, micro-herbs, and feta crumbs on toasted organic sourdough.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: true,
@@ -408,7 +211,7 @@ export const menuItems = [
     name: "Pancake Stack",
     category: "Breakfast",
     price: "$10.50",
-    description: "Fluffy buttermilk pancakes stacked high, topped with fresh mixed berries, whipped butter, and pure maple syrup.",
+    description: "Three light pancakes layered with berry compote, whipped maple butter, and organic grade-A maple syrup.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
@@ -416,59 +219,37 @@ export const menuItems = [
   },
   {
     id: "b3",
-    name: "Croissant Sandwich",
-    category: "Breakfast",
-    price: "$12.00",
-    description: "Flaky butter croissant filled with soft scrambled eggs, melted aged cheddar, and organic baby spinach leaves.",
-    isVeg: false,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "b4",
-    name: "English Breakfast",
-    category: "Breakfast",
-    price: "$14.95",
-    description: "A hearty classic platter containing double sunny-side eggs, grilled chicken sausage, sautéed mushrooms, baked beans, and toast.",
-    isVeg: false,
-    isPopular: false,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "b5",
     name: "Cheese Omelette",
     category: "Breakfast",
     price: "$9.50",
-    description: "Three egg omelette folded with Swiss, mozzarella, and cheddar cheese, served with a side of micro-green salad.",
+    description: "French-rolled three-egg omelette stuffed with Swiss and aged white cheddar, served with toasted sourdough.",
     isVeg: false,
     isPopular: false,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1624462966581-bc6d768cbce5?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- SANDWICHES (5 items) ---
+  // --- SANDWICHES ---
   {
     id: "sw1",
-    name: "Cheese Sandwich",
-    category: "Sandwiches",
-    price: "$8.50",
-    description: "Melted premium Gouda and aged sharp cheddar cheeses between slices of toasted sourdough with herb butter.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "sw2",
     name: "Grilled Veg Sandwich",
     category: "Sandwiches",
     price: "$9.75",
-    description: "Zucchini, bell peppers, eggplant, and mozzarella cheese grilled to perfection with basil pesto spreads.",
+    description: "Toasted pan-sandwich with grilled bell peppers, zucchini, and melted mozzarella cheese.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
+    image: "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?auto=format&fit=crop&w=400&h=400&q=80"
+  },
+  {
+    id: "sw2",
+    name: "Paneer Tikka Sandwich",
+    category: "Sandwiches",
+    price: "$10.50",
+    description: "Tandoori seasoned cottage cheese chunks, mint cream, and crisp onion rings inside a fresh panini.",
+    isVeg: true,
+    isPopular: true,
+    isChefRecommended: true,
     image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
@@ -476,53 +257,31 @@ export const menuItems = [
     name: "Club Sandwich",
     category: "Sandwiches",
     price: "$12.50",
-    description: "Double-decker toasted bread layered with grilled chicken breast, fried egg, lettuce, tomatoes, and garlic aioli.",
+    description: "Triple-decker toasted bread filled with shredded chicken, hard-boiled egg, fresh lettuce, and garlic aioli.",
     isVeg: false,
     isPopular: true,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "sw4",
-    name: "Paneer Tikka Sandwich",
-    category: "Sandwiches",
-    price: "$10.50",
-    description: "Tandoori marinated paneer cubes, mint chutney, sliced onions, and green peppers inside a toasted panini.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "sw5",
-    name: "Mexican Sandwich",
-    category: "Sandwiches",
-    price: "$11.00",
-    description: "Spicy chipotle chicken or pinto beans, avocado, pepper jack cheese, and sweet corn salsa in a warm toasted flatbread.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1567234669003-dce7a7a88821?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- BURGERS (5 items) ---
+  // --- BURGERS ---
   {
     id: "bg1",
     name: "Veg Burger",
     category: "Burgers",
     price: "$9.95",
-    description: "Crispy vegetable patty topped with sliced cucumber, tomato, lettuce, and our house thousand-island dressing.",
+    description: "Crispy vegetable patty topped with sliced cucumber, tomato, lettuce, and our house dressing.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
     id: "bg2",
     name: "Crispy Paneer Burger",
     category: "Burgers",
     price: "$11.50",
-    description: "A thick paneer block coated in crisp panko breadcrumbs, fried golden, topped with spicy sriracha mayo and slaw.",
+    description: "Golden fried panko-crusted cottage cheese block topped with spicy red sriracha and creamy cabbage slaw.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
@@ -530,45 +289,23 @@ export const menuItems = [
   },
   {
     id: "bg3",
-    name: "Double Cheese Burger",
-    category: "Burgers",
-    price: "$13.95",
-    description: "Two prime flame-grilled chicken patties, layered with double cheddar cheese, caramelized onions, and pickles.",
-    isVeg: false,
-    isPopular: true,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "bg4",
-    name: "Mushroom Burger",
-    category: "Burgers",
-    price: "$12.50",
-    description: "Grilled veggie patty loaded with creamy sautéed button and shiitake mushrooms, melted Swiss cheese, and truffle mayo.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "bg5",
     name: "Signature House Burger",
     category: "Burgers",
     price: "$14.50",
-    description: "Flame-grilled signature chicken sausage patty, crispy onion rings, fried egg, pepper jack, and special smoky BBQ sauce.",
+    description: "Flame-grilled house chicken patty, melted Swiss, crisp onion rings, and a rich hickory barbecue sauce.",
     isVeg: false,
     isPopular: true,
     isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- PASTA (5 items) ---
+  // --- PASTA ---
   {
     id: "p1",
     name: "Alfredo Pasta",
     category: "Pasta",
     price: "$12.95",
-    description: "Creamy fettuccine tossed in rich Parmesan cheese butter sauce, loaded with fresh garlic and cracked black pepper.",
+    description: "Fettuccine noodles tossed in a rich, buttery garlic cream sauce and loaded with aged Parmesan.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
@@ -579,64 +316,42 @@ export const menuItems = [
     name: "Arrabbiata Pasta",
     category: "Pasta",
     price: "$11.95",
-    description: "Penne pasta cooked in a fiery spicy tomato sauce infused with garlic, red chili flakes, and extra virgin olive oil.",
+    description: "Penne pasta slow-cooked in a fiery crushed tomato sauce with garlic and toasted red chili flakes.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1563379971899-660589a01de3?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
     id: "p3",
-    name: "Pink Sauce Pasta",
-    category: "Pasta",
-    price: "$12.50",
-    description: "Rigatoni pasta tossed in our specialty hybrid sauce combining rich marinara and velvety cream sauce.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1563379971899-660589a01de3?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "p4",
     name: "Pesto Pasta",
     category: "Pasta",
     price: "$13.50",
-    description: "Spaghetti tossed in house-made Genovese basil pesto, toasted pine nuts, cherry tomatoes, and grated Pecorino.",
+    description: "Spaghetti enveloped in fresh sweet basil pesto, finished with pine nuts and olive oil drops.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: true,
     image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=400&h=400&q=80"
   },
-  {
-    id: "p5",
-    name: "Truffle Mushroom Pasta",
-    category: "Pasta",
-    price: "$15.95",
-    description: "Wild mushrooms sautéed with tagliarelle in a rich cream sauce, finished with premium black truffle oil.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=400&h=400&q=80"
-  },
 
-  // --- PIZZA (5 items) ---
+  // --- PIZZA ---
   {
     id: "pz1",
     name: "Margherita",
     category: "Pizza",
     price: "$12.95",
-    description: "Sourdough crust topped with rich San Marzano tomato sauce, fresh buffalo mozzarella, fresh basil, and olive oil.",
+    description: "Thin Neapolitan crust topped with tomato passata, fresh buffalo mozzarella, and fresh sweet basil.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
     id: "pz2",
     name: "Farmhouse",
     category: "Pizza",
     price: "$14.50",
-    description: "Loaded with fresh red onions, green bell peppers, mushrooms, sweet corn, and organic cherry tomatoes.",
+    description: "Crispy oven-baked crust loaded with red onions, green peppers, mushrooms, and sweet corn.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
@@ -644,45 +359,23 @@ export const menuItems = [
   },
   {
     id: "pz3",
-    name: "Paneer Supreme",
-    category: "Pizza",
-    price: "$15.25",
-    description: "Spicy marinated paneer chunks, colored bell peppers, red onion slices, green chilies, and fresh coriander.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "pz4",
     name: "Four Cheese Pizza",
     category: "Pizza",
     price: "$15.95",
-    description: "A decadent combination of Mozzarella, Gorgonzola, Parmesan, and Fontina cheeses over custom white sauce.",
+    description: "A rich mozzarella, gorgonzola, parmesan, and fontina combination over a crispy golden base.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "pz5",
-    name: "Roasted Veg Pizza",
-    category: "Pizza",
-    price: "$13.95",
-    description: "Oven-roasted zucchini, caramelized onions, garlic cloves, goat cheese crumbles, and balsamic glaze drizzle.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- DESSERTS (5 items) ---
+  // --- DESSERTS ---
   {
     id: "d1",
     name: "Tiramisu",
     category: "Desserts",
     price: "$8.50",
-    description: "Classic Italian dessert made with ladyfingers soaked in our house espresso, layered with whipped mascarpone.",
+    description: "Creamy layered Italian dessert soaked in our signature espresso, dusted with organic cocoa powder.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: true,
@@ -690,113 +383,69 @@ export const menuItems = [
   },
   {
     id: "d2",
-    name: "Chocolate Brownie",
-    category: "Desserts",
-    price: "$6.95",
-    description: "Warm, fudgy chocolate brownie loaded with chocolate chunks, served with vanilla bean ice cream.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "d3",
-    name: "Cheesecake",
-    category: "Desserts",
-    price: "$7.95",
-    description: "New York-style baked cheesecake with a buttery graham cracker crust, topped with fresh strawberry compote.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1524351199679-46cddf530c04?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "d4",
     name: "Chocolate Lava Cake",
     category: "Desserts",
     price: "$7.50",
-    description: "Warm chocolate cake with a molten dark chocolate center, dusted with powdered sugar and served with cream.",
+    description: "Warm single-portion cake containing a rich molten dark chocolate ganache center, served with cream.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: true,
     image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "d5",
+    id: "d3",
     name: "Belgian Waffle",
     category: "Desserts",
     price: "$8.95",
-    description: "Freshly baked, crisp Belgian waffle topped with Nutella drizzle, banana slices, and a scoop of vanilla cream.",
+    description: "Crispy waffle topped with vanilla bean cream, chocolate sauce, and fresh strawberries.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1562376502-6f769499c886?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- CAKES (5 items) ---
+  // --- CAKES ---
   {
     id: "ck1",
     name: "Red Velvet Cake",
     category: "Cakes",
     price: "$7.25",
-    description: "Decadent layers of red velvet cocoa sponge cake filled and iced with premium cream cheese frosting.",
+    description: "Layered sponge cake with a hint of chocolate, frosted with a premium cream cheese frosting.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1588195538326-c5b1e9f8011b?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
     id: "ck2",
-    name: "Chocolate Truffle Cake",
-    category: "Cakes",
-    price: "$7.50",
-    description: "Rich chocolate sponge cake layered with smooth dark chocolate ganache, finished with chocolate shavings.",
-    isVeg: true,
-    isPopular: true,
-    isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "ck3",
     name: "Blueberry Cheesecake",
     category: "Cakes",
     price: "$8.50",
-    description: "Velvety smooth cold-set cream cheese cake topped with a generous layer of sweet wild blueberry glaze.",
+    description: "Velvety smooth cold cheesecake on a butter crust, topped with sweet wild blueberries.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1524351199679-46cddf530c04?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "ck4",
-    name: "Dutch Chocolate Cake",
-    category: "Cakes",
-    price: "$7.75",
-    description: "Premium moist cake baked using traditional Dutch-process cocoa, covered in an airy, smooth frosting.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "ck5",
-    name: "Caramel Crunch Cake",
+    id: "ck3",
+    name: "Chocolate Truffle Cake",
     category: "Cakes",
     price: "$7.50",
-    description: "Vanilla butter cake layered with rich salted caramel sauce and crunchy butterscotch pieces.",
+    description: "Moist chocolate cake layered with a rich double-chocolate truffle frosting.",
     isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1588195538326-c5b1e9f8011b?auto=format&fit=crop&w=400&h=400&q=80"
+    isPopular: true,
+    isChefRecommended: true,
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- BAKERY (5 items) ---
+  // --- BAKERY ---
   {
     id: "bk1",
     name: "Butter Croissant",
     category: "Bakery",
     price: "$3.95",
-    description: "Traditional French laminated pastry, hand-rolled with fine butter and baked to a crisp, golden brown.",
+    description: "Authentic laminated puff pastry, rolled with clean French butter and baked to a golden flake.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
@@ -804,103 +453,59 @@ export const menuItems = [
   },
   {
     id: "bk2",
-    name: "Chocolate Croissant",
-    category: "Bakery",
-    price: "$4.50",
-    description: "Flaky puff pastry croissant filled with two logs of premium semi-sweet dark Belgian chocolate.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "bk3",
     name: "Cinnamon Roll",
     category: "Bakery",
     price: "$4.75",
-    description: "Soft yeast dough swirled with aromatic brown sugar and cinnamon, glazed with a velvety cream cheese icing.",
+    description: "Soft swirled dough filled with aromatic cinnamon sugar, glazed with premium cream cheese icing.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: true,
     image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "bk4",
+    id: "bk3",
     name: "Blueberry Muffin",
     category: "Bakery",
     price: "$3.95",
-    description: "Moist, cake-like muffin bursting with fresh wild blueberries, topped with a sweet sugar crumble streusel.",
+    description: "Fluffy bakery muffin loaded with whole blueberries and topped with a sweet sugar streusel.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "bk5",
-    name: "Banana Walnut Bread",
-    category: "Bakery",
-    price: "$4.25",
-    description: "Slice of dense, flavorful banana bread packed with chopped walnuts and cinnamon spice, served warm.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=400&h=400&q=80"
   },
 
-  // --- SNACKS (5 items) ---
+  // --- SNACKS ---
   {
     id: "sn1",
-    name: "French Fries",
-    category: "Snacks",
-    price: "$4.95",
-    description: "Crispy golden shoestring potatoes seasoned simply with sea salt, served with premium tomato ketchup.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "sn2",
     name: "Peri Peri Fries",
     category: "Snacks",
     price: "$5.50",
-    description: "Crispy golden french fries tossed in a spicy, tangy African bird's eye chili seasoning blend.",
+    description: "Crispy french fries tossed in a spicy, zesty African bird's eye chili seasoning blend.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "sn3",
+    id: "sn2",
     name: "Garlic Bread",
     category: "Snacks",
     price: "$6.95",
-    description: "Artisanal baguette slices slathered in butter, roasted garlic, and Italian herbs, toasted crisp.",
+    description: "Four sliced toasted baguette pieces slathered in premium garlic herb butter.",
     isVeg: true,
     isPopular: true,
     isChefRecommended: true,
-    image: "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&w=400&h=400&q=80"
+    image: "https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?auto=format&fit=crop&w=400&h=400&q=80"
   },
   {
-    id: "sn4",
+    id: "sn3",
     name: "Nachos",
     category: "Snacks",
     price: "$8.95",
-    description: "Crisp corn tortilla chips smothered in hot melted cheese sauce, topped with jalapeños and tomato salsa.",
+    description: "Crispy corn tortilla chips topped with a hot cheese blend, sliced jalapeños, and salsa sauce.",
     isVeg: true,
     isPopular: false,
     isChefRecommended: false,
     image: "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=400&h=400&q=80"
-  },
-  {
-    id: "sn5",
-    name: "Onion Rings",
-    category: "Snacks",
-    price: "$5.95",
-    description: "Thick-cut sweet white onions dipped in batter and panko crumbs, fried golden brown, served with garlic mayo.",
-    isVeg: true,
-    isPopular: false,
-    isChefRecommended: false,
-    image: "https://images.unsplash.com/photo-1639024471283-2da7a3c6a267?auto=format&fit=crop&w=400&h=400&q=80"
   }
 ];

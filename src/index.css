@@ -10,8 +10,11 @@
   --text-secondary: #d4cfc7;
   --text-muted: #8e8378;
   
-  --card-bg: rgba(30, 20, 18, 0.55);
-  --card-bg-hover: rgba(45, 30, 27, 0.7);
+  --badge-veg: #4caf50;
+  --badge-nonveg: #e53935;
+  
+  --card-bg: rgba(22, 12, 10, 0.65);
+  --card-bg-hover: rgba(35, 20, 17, 0.85);
   --card-border: rgba(212, 175, 55, 0.12);
   --card-border-hover: rgba(212, 175, 55, 0.35);
   
@@ -261,6 +264,30 @@ body {
   border-bottom: 1px solid rgba(212, 175, 55, 0.04);
 }
 
+.category-container-sticky::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: linear-gradient(to right, #120806 20%, transparent);
+  z-index: 95;
+  pointer-events: none;
+}
+
+.category-container-sticky::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: linear-gradient(to left, #120806 20%, transparent);
+  z-index: 95;
+  pointer-events: none;
+}
+
 .category-wrapper {
   display: flex;
   overflow-x: auto;
@@ -301,10 +328,9 @@ body {
 
 .category-pill.active {
   color: #120806;
-  background: var(--accent-gold);
-  border-color: var(--accent-gold);
-  box-shadow: 0 0 18px rgba(212, 175, 55, 0.4);
   font-weight: 600;
+  box-shadow: 0 0 18px rgba(212, 175, 55, 0.4);
+  border-color: transparent;
 }
 
 /* Menu Grid */
@@ -326,8 +352,8 @@ body {
   padding: 16px;
   display: flex;
   gap: 16px;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
   transition: var(--transition-smooth);
   overflow: hidden;
